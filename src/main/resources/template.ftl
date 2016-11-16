@@ -101,7 +101,7 @@ if(navigator.userAgent.indexOf('MicroMessenger') >= 0){
 <img src="http://www.xinqishou.com/lol/pic/2_2.png" class='a-fadeinR page1_2' style='position:absolute; '>
 <img src="http://www.xinqishou.com/lol/pic/2_3.png" class='a-fadeinL page2_2' style='position:absolute; '>
 <img src="http://www.xinqishou.com/lol/pic/2_4.png" class='a-flipinX page2_4' style='position:absolute; '>
-<img src="http://www.xinqishou.com/lol/tuijian/${id+item_index-1}.png" class='a-fadeinB page2_4' style='position:absolute; '>
+<img src="http://www.xinqishou.com/lol/tuijian/1 (${id+item_index-1}).png" class='a-fadeinB page2_4' style='position:absolute; '>
 </section>
 </section>
 </#if>
