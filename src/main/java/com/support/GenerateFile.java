@@ -36,12 +36,16 @@ public class GenerateFile {
 				Configuration.VERSION_2_3_25);
 		Template template;
 		try {
-			List<String> list = new ArrayList<String>();
+			List<Map<String,String>> idlist = new ArrayList<Map<String,String>>();
 			BufferedReader reader = new BufferedReader(new InputStreamReader(
 					new FileInputStream(idFile)));
 			String line = null;
+			Map<String,String> map = null;
 			while ((line = reader.readLine()) != null) {
-				list.add(line);
+				map = new HashMap<String, String>();
+				map.put("id", line.split("\\t")[0]);
+				map.put("name", line.split("\\t")[1]);
+				idlist.add(map);
 			}
 			reader.close();
 
@@ -49,7 +53,9 @@ public class GenerateFile {
 					"/");
 			template = configuration.getTemplate("template.ftl");
 			// Writer writer = new StringWriter();
-			for (String id : list) {
+			for (Map<String,String> m : idlist) {
+				String id = m.get("id");
+				String name = m.get("name");
 				Map<String, Object> dataModel = new HashMap<String, Object>();
 				File output = new File("D:\\lixiao\\html\\" + FILE_NAME_PREFIX + "("
 						+ id + ").html");
@@ -58,6 +64,7 @@ public class GenerateFile {
 						new OutputStreamWriter(fileOutputStream));
 				dataModel.put("list", list);
 				dataModel.put("id", Integer.parseInt(id));
+				dataModel.put("name", name);
 				template.process(dataModel, writer);
 				//log.info(writer.toString());
 				fileOutputStream.close();

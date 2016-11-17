@@ -14,7 +14,7 @@
 <meta http-equiv="pragram" content="no-cache" />
 <meta name="sharecontent" data-msg-img="" data-msg-title="" data-msg-content="" data-msg-callBack="" data-line-img="" data-line-title="" data-line-callBack=""/> 
 
-<title>我要分享我的ID是1</title>
+<title>(${name})我要分享我的ID是${id}</title>
 <script src="js/offline.js"></script> 
 <script type="text/javascript">
 if(/Android (\d+\.\d+)/.test(navigator.userAgent)){
@@ -72,10 +72,10 @@ if(navigator.userAgent.indexOf('MicroMessenger') >= 0){
 <div class="bgImg_con">
 <img class="deviceor" src="http://www.xinqishou.com/lol/bj/1 (${id+item_index}).jpg">
 </div>
-<img src="http://www.xinqishou.com/lol/pic/2_1.png" class='a-fadeinL page1_2' style='position:absolute;'>
-<img src="http://www.xinqishou.com/lol/pic/2_2.png" class='a-fadeinR page1_2' style='position:absolute; '>
-<img src="http://www.xinqishou.com/lol/pic/2_3.png" class='a-fadeinL page2_2' style='position:absolute; '>
-<img src="http://www.xinqishou.com/lol/pic/2_4.png" class='a-flipinX page2_4' style='position:absolute; '>
+<img src="http://www.xinqishou.com/lol/pic/1117/${item_index+1}_1.png" class='a-fadeinL page1_2' style='position:absolute;'>
+<img src="http://www.xinqishou.com/lol/pic/1117/${item_index+1}_2.png" class='a-fadeinR page1_2' style='position:absolute; '>
+<img src="http://www.xinqishou.com/lol/pic/1117/${item_index+1}_3.png" class='a-fadeinL page2_2' style='position:absolute; '>
+<img src="http://www.xinqishou.com/lol/pic/1117/${item_index+1}_4.png" class='a-flipinX page2_4' style='position:absolute; '>
 <img src="http://www.xinqishou.com/lol/geren/${id}.png" class='a-fadeinB page2_4' style='position:absolute; '>
 </section>
 </section>
@@ -97,10 +97,10 @@ if(navigator.userAgent.indexOf('MicroMessenger') >= 0){
 <div class="bgImg_con">
 <img class="deviceor" src="http://www.xinqishou.com/lol/bj/1 (${id+item_index}).jpg">
 </div>
-<img src="http://www.xinqishou.com/lol/pic/2_1.png" class='a-fadeinL page1_2' style='position:absolute;'>
-<img src="http://www.xinqishou.com/lol/pic/2_2.png" class='a-fadeinR page1_2' style='position:absolute; '>
-<img src="http://www.xinqishou.com/lol/pic/2_3.png" class='a-fadeinL page2_2' style='position:absolute; '>
-<img src="http://www.xinqishou.com/lol/pic/2_4.png" class='a-flipinX page2_4' style='position:absolute; '>
+<img src="http://www.xinqishou.com/lol/pic/1117/${item_index+1}_1.png" class='a-fadeinL page1_2' style='position:absolute;'>
+<img src="http://www.xinqishou.com/lol/pic/1117/${item_index+1}_2.png" class='a-fadeinR page1_2' style='position:absolute; '>
+<img src="http://www.xinqishou.com/lol/pic/1117/${item_index+1}_3.png" class='a-fadeinL page2_2' style='position:absolute; '>
+<img src="http://www.xinqishou.com/lol/pic/1117/${item_index+1}_4.png" class='a-flipinX page2_4' style='position:absolute; '>
 <img src="http://www.xinqishou.com/lol/tuijian/1 (${id+item_index-1}).png" class='a-fadeinB page2_4' style='position:absolute; '>
 </section>
 </section>
