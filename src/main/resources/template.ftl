@@ -14,7 +14,7 @@
 <meta http-equiv="pragram" content="no-cache" />
 <meta name="sharecontent" data-msg-img="" data-msg-title="" data-msg-content="" data-msg-callBack="" data-line-img="" data-line-title="" data-line-callBack=""/> 
 
-<title>(${name})我要分享我的ID是${id}</title>
+<title>(${name})我要分享我的ID</title>
 <script src="js/offline.js"></script> 
 <script type="text/javascript">
 if(/Android (\d+\.\d+)/.test(navigator.userAgent)){
